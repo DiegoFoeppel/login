@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 20px 20px 0px 20px;
+  padding: 5px;
+}
+
+h1 {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 10px 0px 10px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn {
+  color: rgb(80, 73, 73);
+  background-color: rgb(236, 231, 231);
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.menu {
+  width: 100px;
+  height: auto;
+  background-color: white;
+  border: 1px solid gray;
+  float: right;
+  border-radius: 6px;
+  padding: 5px;
+  margin-right: 15px;
+  display: none;
+}
+
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(20, 58, 228);
+  text-decoration: none;
+}
+
+.perfil,
+.logout {
+  background-color: white;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 0px 0px 1px 10px;
+}
+
+.perfil {
+  color: black;
+}
+
+.logout {
+  color: rgba(26, 38, 45, 0.6);
+}
+
+.perfil:hover,
+.logout:hover {
+  background-color: rgb(223, 219, 219);
+}
